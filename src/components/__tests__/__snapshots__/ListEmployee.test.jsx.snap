@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly CreateEmployeeComponent enzyme 1`] = `
+<div
+  className=""
+>
+  <Modal
+    ariaHideApp={true}
+    bodyOpenClassName="ReactModal__Body--open"
+    closeTimeoutMS={0}
+    contentElement={[Function]}
+    contentLabel="Example Modal"
+    isOpen={false}
+    onRequestClose={[Function]}
+    overlayElement={[Function]}
+    parentSelector={[Function]}
+    portalClassName="ReactModalPortal"
+    preventScroll={false}
+    role="dialog"
+    shouldCloseOnEsc={true}
+    shouldCloseOnOverlayClick={true}
+    shouldFocusAfterRender={true}
+    shouldReturnFocusAfterClose={true}
+    style={
+      Object {
+        "content": Object {
+          "bottom": "auto",
+          "left": "50%",
+          "marginRight": "-20%",
+          "right": "auto",
+          "top": "50%",
+          "transform": "translate(-50%, -50%)",
+          "width": "50%",
+        },
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className=" col-md-6 offset-md-3 offset-md-3"
+      >
+        <h3
+          className="text-center"
+        >
+          Add Employee
+        </h3>
+        <div
+          className="card-body"
+        >
+          <form>
+            <div
+              className="form-group"
+            >
+              <label>
+                 First Name: 
+              </label>
+              <input
+                className="form-control"
+                name="firstName"
+                onChange={[Function]}
+                placeholder="First Name"
+              />
+            </div>
+            <div
+              className="form-group"
+            >
+              <label>
+                 Last Name: 
+              </label>
+              <input
+                className="form-control"
+                name="lastName"
+                onChange={[Function]}
+                placeholder="Last Name"
+              />
+            </div>
+            <div
+              className="form-group"
+            >
+              <label>
+                 Email Id: 
+              </label>
+              <input
+                className="form-control"
+                name="emailId"
+                onChange={[Function]}
+                placeholder="Email Address"
+              />
+            </div>
+            <button
+              className="btn btn-success"
+              onClick={[Function]}
+            >
+              Save
+            </button>
+            <button
+              className="btn btn-danger"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "10px",
+                }
+              }
+            >
+              Cancel
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </Modal>
+</div>
+`;
+
+exports[`renders correctly CreateEmployeeComponent enzyme 2`] = `
+<div
+  className=""
+>
+  <Modal
+    ariaHideApp={true}
+    bodyOpenClassName="ReactModal__Body--open"
+    closeTimeoutMS={0}
+    contentElement={[Function]}
+    contentLabel="Example Modal"
+    isOpen={false}
+    onRequestClose={[Function]}
+    overlayElement={[Function]}
+    parentSelector={[Function]}
+    portalClassName="ReactModalPortal"
+    preventScroll={false}
+    role="dialog"
+    shouldCloseOnEsc={true}
+    shouldCloseOnOverlayClick={true}
+    shouldFocusAfterRender={true}
+    shouldReturnFocusAfterClose={true}
+    style={
+      Object {
+        "content": Object {
+          "bottom": "auto",
+          "left": "50%",
+          "marginRight": "-20%",
+          "right": "auto",
+          "top": "50%",
+          "transform": "translate(-50%, -50%)",
+          "width": "50%",
+        },
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className=" col-md-6 offset-md-3 offset-md-3"
+      >
+        <h3
+          className="text-center"
+        >
+          Add Employee
+        </h3>
+        <div
+          className="card-body"
+        >
+          <form>
+            <div
+              className="form-group"
+            >
+              <label>
+                 First Name: 
+              </label>
+              <input
+                className="form-control"
+                name="firstName"
+                onChange={[Function]}
+                placeholder="First Name"
+              />
+            </div>
+            <div
+              className="form-group"
+            >
+              <label>
+                 Last Name: 
+              </label>
+              <input
+                className="form-control"
+                name="lastName"
+                onChange={[Function]}
+                placeholder="Last Name"
+              />
+            </div>
+            <div
+              className="form-group"
+            >
+              <label>
+                 Email Id: 
+              </label>
+              <input
+                className="form-control"
+                name="emailId"
+                onChange={[Function]}
+                placeholder="Email Address"
+              />
+            </div>
+            <button
+              className="btn btn-success"
+              onClick={[Function]}
+            >
+              Save
+            </button>
+            <button
+              className="btn btn-danger"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "10px",
+                }
+              }
+            >
+              Cancel
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </Modal>
+</div>
+`;
+
+exports[`renders correctly HeaderComponent enzyme 1`] = `
+<div>
+  <header>
+    <nav
+      className="navbar navbar-expand-md navbar-dark bg-dark"
+    >
+      <div>
+        <a
+          className="navbar-brand"
+        >
+          Employee Management App
+        </a>
+      </div>
+    </nav>
+  </header>
+</div>
+`;
+
+exports[`renders correctly enzyme 1`] = `
+<div>
+  <h2
+    className="text-center"
+  >
+    Employees List
+  </h2>
+  <div
+    className="row"
+  >
+    <button
+      className="btn btn-primary"
+      onClick={[Function]}
+    >
+       Add Employee
+    </button>
+  </div>
+  <br />
+  <EmployeeRecords
+    employees={Array []}
+    loading={false}
+  />
+  <Pagination
+    paginate={[Function]}
+    postsPerPage={10}
+    totalPosts={0}
+  />
+</div>
+`;
+
+exports[`renders correctly enzyme 2`] = `
+<div>
+  <h2
+    className="text-center"
+  >
+    Employees List
+  </h2>
+  <div
+    className="row"
+  >
+    <button
+      className="btn btn-primary"
+      onClick={[Function]}
+    >
+       Add Employee
+    </button>
+  </div>
+  <br />
+  <EmployeeRecords
+    employees={Array []}
+    loading={false}
+  />
+  <Pagination
+    paginate={[Function]}
+    postsPerPage={10}
+    totalPosts={0}
+  />
+</div>
+`;
